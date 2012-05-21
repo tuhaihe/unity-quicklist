@@ -5,3 +5,6 @@ Quicklist for Ubuntu Unity
 #2,将.destkop文件复制到~/.local/share/applications目录下。
 #3,在文件管理器中打开第2步目录，然后将这几个文件用鼠标拖到屏幕左侧
 的启动器上。
+
+提示
+weibo.desktop 文件中的第20行、46行、51行需改为与自己微博账户搭配的地址。
