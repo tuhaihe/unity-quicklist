@@ -1,9 +1,7 @@
 Quicklist for Ubuntu Unity
 
 安装指南
-
-#1,下载源文件
-
-该文件包括新浪微博、音乐电台、在线视频三个快捷列表。
-
-git clone git
+#1,将icon目录下的png文件以管理员权限复制到/usr/share/pixmaps目录
+#2,将.destkop文件复制到~/.local/share/applications目录下。
+#3,在文件管理器中打开第2步目录，然后将这几个文件用鼠标拖到屏幕左侧
+的启动器上。
