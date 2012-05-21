@@ -1,0 +1,58 @@
+[Desktop Entry]
+Version=1.0
+Name=新浪微博
+Comment=新浪微博
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=weibo.png
+StartupNotify=true
+Categories=互联网
+X-Ayatana-Desktop-Shortcuts=我的首页;已发微博;@提到我的;我的评论;我的私信;我的收藏;关注;粉丝;找人;
+
+[我的首页 Shortcut Group]
+Name=我的首页
+Exec=xdg-open 'http://weibo.com'
+TargetEnvironment=Unity
+
+[已发微博 Shortcut Group]
+Name=已发微博
+Exec=xdg-open 'http://weibo.com/ibentutu/profile?leftnav=1&wvr=3.6'
+TargetEnvironment=Unity
+
+[@提到我的 Shortcut Group]
+Name=@提到我的
+Exec=xdg-open 'http://weibo.com/at/weibo?leftnav=1&wvr=3.6'
+TargetEnvironment=Unity
+
+[我的评论 Shortcut Group]
+Name=我的评论
+Exec=xdg-open 'http://weibo.com/comment/inbox?leftnav=1&wvr=3.6'
+TargetEnvironment=Unity
+
+[我的私信 Shortcut Group]
+Name=我的私信
+Exec=xdg-open 'http://weibo.com/messages?leftnav=1&wvr=3.6'
+TargetEnvironment=Unity
+
+
+[我的收藏 Shortcut Group]
+Name=我的收藏
+Exec=xdg-open 'http://weibo.com/fav?leftnav=1&wvr=3.6'
+TargetEnvironment=Unity
+
+[关注 Shortcut Group]
+Name=关注
+Exec=xdg-open 'http://weibo.com/1783565584/follow?leftnav=1&wvr=3.6'
+TargetEnvironment=Unity
+
+[粉丝 Shortcut Group]
+Name=粉丝
+Exec=xdg-open 'http://weibo.com/1783565584/fans?leftnav=1&wvr=3.6'
+TargetEnvironment=Unity
+
+
+[找人 Shortcut Group]
+Name=找人
+Exec=xdg-open 'http://weibo.com/f/find?topnav=1&wvr=3.6'
+TargetEnvironment=Unity

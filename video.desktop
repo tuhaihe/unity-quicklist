@@ -1,0 +1,55 @@
+[Desktop Entry]
+Version=1.0
+Name=在线视频
+Comment=在线视频
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=video.png
+StartupNotify=true
+X-Ayatana-Desktop-Shortcuts=乐视;爱奇异;凤凰直播;华视直播;PPTV直播;搜狐直播;悠视直播;城市卫视直播;中国网络电视;
+
+[乐视 Shortcut Group]
+Name=乐视
+Exec=xdg-open 'http://www.letv.com/'
+TargetEnvironment=Unity
+
+[爱奇异 Shortcut Group]
+Name=爱奇异
+Exec=xdg-open 'http://www.iqiyi.com/x/'
+TargetEnvironment=Unity
+
+[凤凰直播 Shortcut Group]
+Name=凤凰直播
+Exec=xdg-open 'http://v.ifeng.com/live/'
+TargetEnvironment=Unity
+
+[华视直播 Shortcut Group]
+Name=华视直播
+Exec=xdg-open 'http://www.wasu.cn/live'
+TargetEnvironment=Unity
+
+[PPTV直播 Shortcut Group]
+Name=PPTV直播
+Exec=xdg-open 'http://zt.pptv.com/pptvlive2/index.html'
+TargetEnvironment=Unity
+
+[搜狐直播 Shortcut Group]
+Name=搜狐直播
+Exec=xdg-open 'http://live.tv.sohu.com'
+TargetEnvironment=Unity
+
+[悠视直播 Shortcut Group]
+Name=悠视直播
+Exec=xdg-open 'http://zhibo.uusee.com/'
+TargetEnvironment=Unity
+
+[城市卫视直播 Shortcut Group]
+Name=城市卫视直播
+Exec=xdg-open 'http://tv.cutv.com/'
+TargetEnvironment=Unity
+
+[中国网络电视 Shortcut Group]
+Name=布谷直播
+Exec=xdg-open 'http://bugu.cntv.cn/live/index.shtml'
+TargetEnvironment=Unity

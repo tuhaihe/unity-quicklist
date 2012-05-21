@@ -1,0 +1,43 @@
+[Desktop Entry]
+Version=1.0
+Name=音乐电台
+Comment=在线音乐
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=ting.png
+StartupNotify=true
+X-Ayatana-Desktop-Shortcuts=百度Ting;豆瓣电台;网页酷狗;网页酷我;谷歌音乐;虾米音乐;
+
+[百度Ting Shortcut Group]
+Name=百度Ting
+Exec=xdg-open 'http://ting.baidu.com/player/index.html'
+TargetEnvironment=Unity
+
+
+[豆瓣电台 Shortcut Group]
+Name=豆瓣电台
+Exec=xdg-open 'http://douban.fm'
+TargetEnvironment=Unity
+
+[网页酷狗 Shortcut Group]
+Name=网页酷狗
+Exec=xdg-open 'http://web.kugou.com'
+TargetEnvironment=Unity
+
+[网页酷我 Shortcut Group]
+Name=网页酷我
+Exec=xdg-open 'http://player.kuwo.cn/webmusic/play'
+TargetEnvironment=Unity
+
+[谷歌音乐 Shortcut Group]
+Name=谷歌音乐
+Exec=xdg-open 'http://g.top100.cn/16667639/html/player.html'
+TargetEnvironment=Unity
+
+[虾米音乐 Shortcut Group]
+Name=虾米音乐
+Exec=xdg-open 'http://www.xiami.com/song/play?ids=/song/playlist'
+TargetEnvironment=Unity
+
+

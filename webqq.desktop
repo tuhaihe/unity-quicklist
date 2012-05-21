@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Name=网页QQ
+Comment=网页QQ
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=webqq.png
+StartupNotify=true
+X-Ayatana-Desktop-Shortcuts=网页QQ;
+
+[网页QQ Shortcut Group]
+Name=网页QQ
+Exec=xdg-open 'http://web.qq.com'
+TargetEnvironment=Unity
+
+
+
